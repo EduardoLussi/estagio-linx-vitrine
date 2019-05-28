@@ -1,0 +1,103 @@
+section {
+    font-family: Verdana;
+}
+section>div {
+    box-shadow: 1px 1px 5px 2px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: inline-flex;
+    padding-bottom: 10px;
+    margin: 100px auto 0 10vw;
+}
+.recommends-item {
+    width: 150px;
+    display: block;
+    padding: 10px 15px;
+}
+.recommends-item:hover {
+    background: linear-gradient(to bottom, #d7eaf9, rgba(0,0,0,0));
+}
+.recommends-item:hover .rec-img {
+    box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.2);
+}
+.recommends-title {
+    padding: 10px 20px;
+    background: #E5F1FB;
+    margin-bottom: 10px;
+}
+.recommends-title h4 {
+    font-family: Helvetica;
+    color: #006699;
+    font-size: 16px;
+}
+.rec-img {
+    text-align: center;
+    background: white;
+    margin-bottom: 10px;
+}
+.rec-img img {
+    width: 6vw;
+    height: auto;
+}
+.rec-product-desc {
+    text-align: justify;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    font-size: .7em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.rec-product-old-price {
+    font-size: .7em;
+    margin-bottom: 5px;
+}
+.rec-product-price {
+    font-size: .75em;
+    color: #CC0000;
+}
+.rec-product-price span {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+.rec-product-installment-price {
+    margin-top: 0.5em;
+    font-size: 0.7em;
+    font-weight: bold;
+    color: #CC0000;
+}
+.rec-product-installment-price span {
+    font-weight: normal;
+}
+div.recommendations a:hover {
+    text-decoration: underline;
+}
+/*Slider*/
+.product-slider {
+    border-left: 1px solid rgba(190,190,190,0.4);
+    display: inline-flex;
+    width: 45vw;
+}
+.product-slider .ps-itens-container {
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.product-slider ul.ps-itens {
+    display: inline-flex;
+    transition: .5s;
+}
+.product-slider .ps-button-container {
+    padding: 0 10px;
+    text-align: center;
+}
+.product-slider .ps-button-container img {
+    width: 1.5vw;
+    height: auto;
+}
+.product-slider .ps-button-container-next img {
+    cursor: pointer;
+}
+.product-slider .ps-button {
+    margin-top: 30px;
+}
